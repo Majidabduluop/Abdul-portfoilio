@@ -1,9 +1,8 @@
-import { Avatar } from "@mantine/core";
-import profile from "../assets/profile.jpg";
+// import profile from "../assets/profile.jpg";
 const Landingpage = () => {
   return (
     <>
-      <div className="position absolute top-1.5 left-4">
+      {/* <div className="position absolute top-1.5 left-4">
         <Avatar
           src={profile}
           alt="it's me"
@@ -13,7 +12,7 @@ const Landingpage = () => {
             objectFit: "cover",
           }}
         />
-      </div>
+      </div> */}
       <section
         id="home"
         className="min-h-screen flex items-center justify-center relative "

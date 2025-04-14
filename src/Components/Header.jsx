@@ -17,22 +17,31 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 border-b border-white/10 ${
-        scrolled ? "bg-gray-900 backdrop-blur-md" : "bg-transparent"
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b border-white/10 ${
+        scrolled ? "bg-gray-900/80 backdrop-blur-md" : "bg-transparent"
       }`}
     >
-      <div className="position absolute top-1.5 left-4">
-        <Avatar
-          src={profile}
-          alt="it's me"
-          size={65}
-          className="rounded-full ring-1 ring-blue-500 shadow-lg bg-white p-[2px] transition-transform duration-300 ease-in-out hover:scale-110"
-          sx={{
-            objectFit: "cover",
-          }}
-        />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16 sm:h-20">
+          {/* Avatar */}
+          <div className="flex-shrink-0">
+            <Avatar
+              src={profile}
+              alt="it's me"
+              size={{ base: 45, sm: 55, md: 65 }}
+              className="rounded-full ring-1 ring-blue-500 shadow-lg bg-white p-[2px] transition-transform duration-300 ease-in-out hover:scale-110"
+              sx={{
+                objectFit: "cover",
+              }}
+            />
+          </div>
+
+          {/* Navbar */}
+          <div className="flex-1 flex justify-end">
+            <Navbar />
+          </div>
+        </div>
       </div>
-      <Navbar />
     </header>
   );
 };

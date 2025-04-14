@@ -25,7 +25,7 @@ const About = () => {
   ];
 
   return (
-    <section className="min-h-screen flex items-center justify-center py-10 md:py-14 sm:py-14">
+    <section className="min-h-screen flex items-center justify-center py-10 sm:py-42">
       <div className="w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
           About Me

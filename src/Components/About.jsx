@@ -106,18 +106,7 @@ const About = () => {
             <div className="space-y-3 sm:space-y-4 text-gray-300 text-sm sm:text-base">
               <div>
                 <h4 className="font-semibold text-sm sm:text-base">
-                  Full Stack Developer at Insitech (2022 - 2024)
-                </h4>
-                <p className="text-xs sm:text-sm mt-1">
-                  Built scalable APIs with Spring Boot and MongoDB, implementing
-                  JWT authentication. Developed dynamic UIs with React, Next.js,
-                  and Redux for seamless backend integration.
-                </p>
-              </div>
-
-              <div>
-                <h4 className="font-semibold text-sm sm:text-base">
-                  React Developer at CapregSoft Limited (2019 - 2021)
+                  React Developer at CapregSoft Limited (2022 - 2024)
                 </h4>
                 <p className="text-xs sm:text-sm mt-1">
                   Developed user interfaces with React.js and Next.js,

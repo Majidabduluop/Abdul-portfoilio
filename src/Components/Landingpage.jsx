@@ -38,7 +38,7 @@ const Landingpage = () => {
             My Resume
           </h3>
           <p className="text-gray-400 text-xs sm:text-sm mb-3 sm:mb-4">
-            Download my professional resume
+            Download my professional resumed
           </p>
           <a
               href="/resume.pdf"

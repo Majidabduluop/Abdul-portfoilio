@@ -41,7 +41,7 @@ const Landingpage = () => {
             Download my professional resume
           </p>
           <a
-              href="/AbdulMajidresume.pdf"
+              href="/resume.pdf"
             download
             className="bg-blue-400/20 hover:bg-blue-400/30 text-blue-400 py-1.5 sm:py-2 px-3 sm:px-4 rounded-lg transition-all duration-200 flex items-center justify-center gap-2 text-xs sm:text-sm font-medium hover:text-blue-300 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)]"
           >

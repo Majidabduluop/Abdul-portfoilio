@@ -36,7 +36,7 @@ function ChatWidget() {
           </div>
 
           <div className="p-4 text-sm text-gray-300">
-            Hi! I'm Abdul's AI assistant. How can I help you?
+            Hi! I'm Abdul's AI assistant. How can I help you??
           </div>
         </div>
       )}
